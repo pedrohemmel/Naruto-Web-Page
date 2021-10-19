@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IM Fell English SC', serif;
+}
+
+/*CLASSES-GLOBAIS*/
+.bg-color-orange {
+    background-color: #FE660F;
+}
+
+.bg-color-yellow {
+    background-color: #fbe407;
+}
+
+.bg-color-light-yellow {
+    background-color: #ffe182;
+}
+
+.bg-color-bark {
+    background-color: #0b0b0b;
+}
+
+.bg-color-dark-blue {
+    background-color: #061B7E;
+}
+
+.larguraCont {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.padding-secao {
+    padding: 3em 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .larguraCont {
+        width: 1200px;
+    }
+}
+
+/*CLASSES-GLOBAIS*/
+
+
+
+/*HEADER*/
+
+header {
+    height: 400px;
+    width: 100%;
+    
+    background-image: url("../img/narutoBanner.svg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+
+.headerCont {
+    height: 768px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.headerCont nav {
+    padding: 20px;
+}
+
+.headerCont nav a {
+    color: #fff;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 0.6em;
+
+    margin: 0 5px;
+
+    transition: 0.3s;
+}
+
+.headerCont nav a:hover {
+    color: #f2a30b;
+}
+
+.titutloBanner {
+    margin-top: 5%;;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2em;
+}
+
+@media screen and (min-width: 570px) {
+    .headerCont nav a {
+        font-size: 0.8em;
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        background-position: center;
+
+        height: 768px;
+    }
+
+    .headerCont nav a {
+        font-size: 1em;
+    }
+}
+
+/*HEADER*/
+
+/*SOBRE NARUTINHO*/
+    #sobreNaruto h1 {
+        margin: 0;
+        padding: 0;
+
+        color: #fff;
+
+        font-size: 1.5em;
+
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #sobreNaruto article {
+        display: flex;
+        flex-direction: column;
+        
+        margin: 2em 0;
+    }
+
+    #sobreNaruto article .pri-img-naruto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: -60px;
+    }
+
+    #sobreNaruto article .pri-img-naruto img {
+        width: 100%;
+    }
+
+    #sobreNaruto article .pri-text-naruto {
+        padding: 0 40px;  
+    }
+
+    #sobreNaruto article .pri-text-naruto p {
+        text-align: justify;
+
+        color: #fff;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        #sobreNaruto h1 {
+            font-size: 2.5em;
+        }
+
+        #sobreNaruto article {
+            display: flex;
+            flex-direction: row;
+            margin: 2em 0;
+        }
+    
+        #sobreNaruto article .pri-img-naruto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            margin-bottom: 0px;
+
+        }
+
+        #sobreNaruto article .pri-img-naruto img {
+           
+        }
+    
+        #sobreNaruto article .pri-text-naruto {
+            padding: 0 0;  
+        }
+    
+        #sobreNaruto article .pri-text-naruto p {
+            text-align: justify;
+    
+            color: #fff;
+        }
+
+    }
+/*SOBRE NARUTINHO*/
+
