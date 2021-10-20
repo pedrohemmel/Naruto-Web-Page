@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IM Fell English SC', serif;
+    background-color: #FE660F;
+}
+
+/*CLASSES-GLOBAIS*/
+.bg-color-orange {
+    background-color: #FE660F;
+}
+
+.bg-color-yellow {
+    background-color: #fbe407;
+}
+
+.bg-color-light-yellow {
+    background-color: #ffe182;
+}
+
+.bg-color-dark {
+    background-color: #0b0b0b;
+}
+
+.bg-color-dark-blue {
+    background-color: #061B7E;
+}
+
+.larguraCont {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.padding-secao {
+    padding: 3em 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .larguraCont {
+        width: 1200px;
+    }
+}
+
+/*CLASSES-GLOBAIS*/
+
+
+
+/*HEADER*/
+
+header {
+    height: 400px;
+    width: 100%;
+    
+    background-image: url("../img/narutoBanner.svg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+
+.headerCont {
+    height: 768px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.headerCont nav {
+    padding: 20px;
+}
+
+.headerCont nav a {
+    background-color: #fff;
+    color: #FE660F;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 0.6em;
+
+    margin: 0 5px;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+
+
+}
+
+.headerCont nav a:hover {
+    background-color: #fff;
+    color: #FE660F;
+}
+
+.titutloBanner {
+    margin-top: 5%;;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2em;
+}
+
+@media screen and (min-width: 570px) {
+    .headerCont nav a {
+        font-size: 0.8em;
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        background-position: center;
+
+        height: 768px;
+    }
+
+    .headerCont nav a {
+        font-size: 1em;
+    }
+
+    .headerCont nav a {
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+/*HEADER*/
+
+/*SOBRE NARUTINHO*/
+
+    #sobreNaruto {
+    
+        background-image: linear-gradient(to bottom, #FE660F, #FE660F, #fa8a0b, #fa8a0b);
+    }
+
+    #sobreNaruto h1 {
+        margin: 0;
+        padding: 0;
+
+        color: #fff;
+
+        font-size: 1.5em;
+
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #sobreNaruto article {
+        display: flex;
+        flex-direction: column;
+        
+        margin: 2em 0;
+    }
+
+    #sobreNaruto article .pri-img-naruto,
+    #sobreNaruto article .seg-img-naruto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #sobreNaruto article .pri-img-naruto img {
+        width: 70%;
+    }
+
+    #sobreNaruto article .seg-img-naruto img {
+        width: 100%;
+    }
+
+    #sobreNaruto article .pri-text-naruto,
+    #sobreNaruto article .seg-text-naruto {
+        padding: 0 40px;  
+    }
+
+    #sobreNaruto article .pri-text-naruto p,
+    #sobreNaruto article .seg-text-naruto p {
+        text-align: justify;
+
+        color: #fff;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        #sobreNaruto h1 {
+            font-size: 2.5em;
+        }
+
+        #sobreNaruto article {
+            display: flex;
+            flex-direction: row;
+
+            justify-content: center;
+
+            align-items: center;
+
+            margin: 2em 0;
+        }
+    
+        #sobreNaruto article .pri-img-naruto,
+        #sobreNaruto article .seg-img-naruto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            margin-bottom: 0px;
+
+            width: 100%;
+
+        }
+
+        #sobreNaruto article .pri-img-naruto img,
+        #sobreNaruto article .seg-img-naruto img {
+            width: 80%;
+        }
+    
+        #sobreNaruto article .pri-text-naruto,
+        #sobreNaruto article .seg-text-naruto {
+            padding: 0 0;  
+
+            width: 100%;
+        }
+    
+        #sobreNaruto article .pri-text-naruto p,
+        #sobreNaruto article .seg-text-naruto p {
+            font-size: 1.2em;
+
+            text-align: justify;
+    
+            color: #fff;
+            
+            padding: 0 20px;
+        }
+
+    }
+/*SOBRE NARUTINHO*/
+
+/*RODAPE*/
+    #footerPag  {
+        color: #fff;
+        text-align: center;
+
+        padding-bottom: 1em;
+    }
+
+    #footerPag .direitos p {
+        margin: 0;
+        padding: 1em 10px 0 10px;
+    }
+
+    #footerPag article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footerPag article .assistaNaruto,
+    #footerPag article .contato,
+    #footerPag article .mensagemPedro {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+    }
+
+    #footerPag article .assistaNaruto hr,
+    #footerPag article .contato hr {
+        width: 80%;
+    }
+
+    #footerPag article .assistaNaruto a,
+    #footerPag article .contato a {
+        text-decoration: none;
+
+        color: #fff;
+
+        margin: 10px 0;
+    }
+
+    #footerPag article .assistaNaruto a:hover,
+    #footerPag article .contato a:hover {
+        color: #FE660F;
+    }
+
+    @media screen and (min-width: 768px) {
+        #footerPag article {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #footerPag article .assistaNaruto,
+        #footerPag article .contato,
+        #footerPag article .mensagemPedro {
+            padding: 10px;
+        }
+    }
+/*RODAPE*/
+
