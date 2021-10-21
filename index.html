@@ -10,12 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     <title>Naruto</title>
 </head>
-<body>
+<body onkeydown="move(event)">
     <header>
         <section class="larguraCont headerCont">
            <nav>
-                <a href="#sobreNaruto">História de Naruto</a>
-                <a href="#footerPag">Assista agora</a>
+                <a href="#sobreNaruto" target="_blank">História de Naruto</a>
+                <a href="#footerPag" target="_blank">Assista agora</a>
             </nav>
         </section>
     </header>
@@ -61,15 +61,15 @@
             <div class="assistaNaruto">
                 <h1>Assista Naruto</h1>
                 <hr>
-                <a href="https://www.crunchyroll.com/pt-br/naruto">Naruto Classico</a>
-                <a href="https://www.crunchyroll.com/pt-br/naruto-shippuden/videos">Naruto Shippuden</a>
-                <a href="https://www.crunchyroll.com/pt-br/boruto-naruto-next-generations?utm_source=paid_cr&utm_medium=google-search&utm_campaign=conversion&utm_term=boruto%20crunchyroll&referrer=paid_cr_google-search_conversion&gclid=EAIaIQobChMIqPby_dHX8wIVgvLjBx2--Ql4EAAYASABEgLbSPD_BwE">Boruto</a>
+                <a href="https://www.crunchyroll.com/pt-br/naruto" target="_blank">Naruto Classico</a>
+                <a href="https://www.crunchyroll.com/pt-br/naruto-shippuden/videos" target="_blank">Naruto Shippuden</a>
+                <a href="https://www.crunchyroll.com/pt-br/boruto-naruto-next-generations?utm_source=paid_cr&utm_medium=google-search&utm_campaign=conversion&utm_term=boruto%20crunchyroll&referrer=paid_cr_google-search_conversion&gclid=EAIaIQobChMIqPby_dHX8wIVgvLjBx2--Ql4EAAYASABEgLbSPD_BwE" target="_blank">Boruto</a>
             </div>
             <div class="contato">
                 <h1>Entre em Contato</h1>
                 <hr>
-                <a href="mailto:phenrique_h2016@hotmail.com">phenrique_h2016@hotmail.com</a>
-                <a href="https://pedrohemmel.github.io/">Acesse meu site pessoal</a>
+                <a href="mailto:phenrique_h2016@hotmail.com" target="_blank">phenrique_h2016@hotmail.com</a>
+                <a href="https://pedrohemmel.github.io/" target="_blank">Acesse meu site pessoal</a>
             </div>
             <div class="mensagemPedro">
                 <h4>It's a long way to the top if you wanna Rock 'N' Roll</h4>
@@ -82,5 +82,18 @@
             <p><i>@ Pedro Henrique Dias Hemmel de Oliveira Souza 2021 | Todos direitos reservados</i></p>
         </div> 
     </footer>
+
+    <section class="bg-color-dark" id="jogoNaruto">
+        <div id="canvasJogo">      
+                <div id="naruto">
+                    <img id="imagem1" src="assets/img/naruto-cima.png" alt="naruto cima">
+                    <img id="imagem2" src="assets/img/naruto-baixo.png" alt="naruto baixo">
+                    <img id="imagem3" src="assets/img/naruto-direita.png" alt="naruto direita">
+                    <img id="imagem4" src="assets/img/naruto-esquerda.png" alt="naruto esquerda">
+                </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
