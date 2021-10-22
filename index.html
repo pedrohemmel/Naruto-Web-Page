@@ -11,11 +11,11 @@
     <title>Naruto</title>
 </head>
 <body onkeydown="move(event)">
-    <header>
+    <header id="cabecalho">
         <section class="larguraCont headerCont">
            <nav>
-                <a href="#sobreNaruto" target="_blank">História de Naruto</a>
-                <a href="#footerPag" target="_blank">Assista agora</a>
+                <a href="#sobreNaruto">História de Naruto</a>
+                <a href="#footerPag">Assista agora</a>
             </nav>
         </section>
     </header>
@@ -83,13 +83,19 @@
         </div> 
     </footer>
 
-    <section class="bg-color-dark" id="jogoNaruto">
+    <section id="jogoNaruto">
         <div id="canvasJogo">      
                 <div id="naruto">
                     <img id="imagem1" src="assets/img/naruto-cima.png" alt="naruto cima">
                     <img id="imagem2" src="assets/img/naruto-baixo.png" alt="naruto baixo">
                     <img id="imagem3" src="assets/img/naruto-direita.png" alt="naruto direita">
                     <img id="imagem4" src="assets/img/naruto-esquerda.png" alt="naruto esquerda">
+
+                    <div id="teclasTutorial">
+                        <p>Pressione</p>
+                        <img width="100px;" src="assets/img/seta.png">
+                        <p>Chegue até a casa dos Hokages</p>
+                    </div>
                 </div>
         </div>
     </section>

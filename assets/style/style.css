@@ -86,7 +86,7 @@ header {
 
     transition: 0.3s;
 
-
+    cursor: pointer;
 }
 
 .headerCont nav a:hover {
@@ -145,6 +145,8 @@ header {
 
         text-align: center;
         text-transform: uppercase;
+
+        cursor: pointer;
     }
 
     #sobreNaruto article {
@@ -159,6 +161,8 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        cursor: pointer;
     }
 
 
@@ -346,7 +350,8 @@ header {
         bottom: 30px;
         left: 300px;
 
-
+        cursor: pointer;
+        pointer-events: none;
     }
 
     #imagem2,
@@ -354,6 +359,16 @@ header {
     #imagem4 {
         display: none;
     }
+
+    #teclasTutorial {
+        width: 30%;
+        text-align: center;
+
+        padding: 20px 30px;
+
+        color: rgb(214, 214, 214);
+    }
+    
 }
 
 /*JOGO NARUTO*/
