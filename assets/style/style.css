@@ -126,6 +126,13 @@ header {
     }
 }
 
+@media screen and (min-width: 3000px) {
+    header {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
 /*HEADER*/
 
 /*SOBRE NARUTINHO*/
@@ -352,6 +359,12 @@ header {
 
         cursor: pointer;
         pointer-events: none;
+    }
+
+    #sasuke {
+        position: absolute;
+        bottom: 430px;
+        left: 310px;
     }
 
     #imagem2,

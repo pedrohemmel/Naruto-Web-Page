@@ -187,7 +187,7 @@ function move(event){
 
     
 
-    if((y >= 450 && x >= 220) && (y >= 450 && x <= 355)) {
+    if((y >= 415 && x >= 220) && (y >= 415 && x <= 355)) {
         
         sobreNaruto.style.display = "block";
         footerPag.style.display = "block";
